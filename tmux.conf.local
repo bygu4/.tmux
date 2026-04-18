@@ -467,7 +467,8 @@ set -g @powerkit_plugin_ssh_icon ''
 
 set -g @resurrect-capture-pane-contents 'on'
 set -g @continuum-boot 'on'
-set -g @continuum-restore 'on'
+set -g @continuum-restore 'off'
+set -g @continuum-save-interval '15'
 
 set -g @plugin 'fabioluciano/tmux-powerkit'
 set -g @plugin 'tmux-plugins/tmux-copycat'
