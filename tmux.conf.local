@@ -459,7 +459,7 @@ set -g @powerkit_status_interval '5'
 set -g @powerkit_lazy_loading 'true'
 set -g @powerkit_stale_multiplier '3'
 
-set -g @powerkit_plugins 'group(hostname,ssh),group(uptime,netspeed),group(vpn,git)'
+set -g @powerkit_plugins 'group(hostname,uptime),group(netspeed,vpn,ssh,git),bluetooth,packages'
 set -g @powerkit_plugin_group_coloring 'true'
 set -g @powerkit_plugin_git_show_files 'true'
 set -g @powerkit_plugin_git_branch_max_length '15'
